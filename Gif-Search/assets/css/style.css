@@ -1,6 +1,5 @@
 body {
-    background: url("/assets/images/Cartoon-Background.jpg");
-    background-color: #cccccc;
+    background-image: url("../images/Cartoon-Background.jpg");
 }
 
 img {
