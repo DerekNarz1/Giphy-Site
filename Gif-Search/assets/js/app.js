@@ -16,7 +16,7 @@ function createButtons(){
 
 		var thisShow = $(this).data('name');
 
-		var giphyURL = "http://api.giphy.com/v1/gifs/search?q=tv+show+" + thisShow + "&limit=10&api_key=dc6zaTOxFJmzC";
+		var giphyURL = "http://api.giphy.com/v1/gifs/search?q=tv+show+" + thisShow + "&limit=10&api_key=33c668c5919d48b88bffd632a230a515";
 
 		$.ajax({url: giphyURL, method: 'GET'}).done(function(giphy){
 
